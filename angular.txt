@@ -1,0 +1,6 @@
+Tạo dự án
+ng new lazy --legacyBrowsers=true --minimal=true --style=scss --skipTests=true --routing=true --prefix=lazy
+
+Add SSR
+ng add @nguniversal/express-engine
+
