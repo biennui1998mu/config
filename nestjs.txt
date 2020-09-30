@@ -1,5 +1,5 @@
 Tạo dự án
-nest new nest-train
+nest new app-name
 
 // Configuration module for Nest based on the dotenv (to load process environment variables) package.
 npm i --save @nestjs/config
