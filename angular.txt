@@ -1,6 +1,17 @@
 Tạo dự án
-ng new lazy --legacyBrowsers=true --style=scss --skipTests=true --routing=true --prefix=lazy
+ng new project-name --legacyBrowsers=true --style=scss --skipTests=true --routing=true --prefix=project-name
 
 Add SSR
 ng add @nguniversal/express-engine
+
+Add Fontawesome
+npm install --save @fortawesome/fontawesome-free
+--------------------------------------------------------------------
+Add to angular.json
+"node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
+"node_modules/@fortawesome/fontawesome-free/scss/solid.scss",
+"node_modules/@fortawesome/fontawesome-free/scss/regular.scss",
+"node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
+--------------------------------------------------------------------
+
 
