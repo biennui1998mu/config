@@ -1,5 +1,5 @@
 Tạo dự án
-ng new project-name --legacyBrowsers=true --style=scss --skipTests=true --routing=true --prefix=project-name
+ng new client --legacyBrowsers=true --style=scss --skipTests=true --routing=true --prefix=project-name
 
 Add SSR
 ng add @nguniversal/express-engine
