@@ -1,10 +1,17 @@
 Tạo dự án
-ng new client --legacyBrowsers=true --style=scss --skipTests=true --routing=true --prefix=project-name
+ng new walletX --legacyBrowsers=true --style=scss --skipTests=true --routing=true --prefix=walletX
 
 Add SSR
 ng add @nguniversal/express-engine
 
+Add angular material
+ng add @angular/material
+
 Add Fontawesome
+ng add @fortawesome/angular-fontawesome@<version> || 0.7.0
+---------------------------------------------------------
+Add FontAwesomeModule to imports in src/app/app.module.ts
+---------------------------------------------------------
 npm install --save @fortawesome/fontawesome-free
 --------------------------------------------------------------------
 Add to angular.json
@@ -13,5 +20,3 @@ Add to angular.json
 "node_modules/@fortawesome/fontawesome-free/scss/regular.scss",
 "node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
 --------------------------------------------------------------------
-
-
