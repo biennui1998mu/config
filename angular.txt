@@ -1,5 +1,5 @@
 Tạo dự án
-ng new walletX --legacyBrowsers=true --style=scss --skipTests=true --routing=true --prefix=walletX
+ng new test --legacyBrowsers=true --style=scss --skipTests=true --routing=true --prefix=test
 
 Add SSR
 ng add @nguniversal/express-engine
